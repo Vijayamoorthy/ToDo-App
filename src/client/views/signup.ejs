@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/mainup.css">
+    <title>Signup</title>
+</head>
+
+<body>
+    <div class="signup-ctr">
+        <div class="hdr">
+    <h1 class="signup-hdr">Signup</h1>
+    </div>
+    <form class="signup-form" method="post" action="/signup">
+        <input name="name" class="inputName" placeholder="Your Name Please" required /><br><br>
+        <input type="email" name="email" class="inputEmail" placeholder="Enter YOur Email" required /><br><br>
+        <input type="password" name="password" class="inputPassword" placeholder="password" required /><br><br>
+        <button class="signup-btn" type="submit">Signup</button>
+        <!-- //<a href="/signin">Signin</a> -->
+    </form>
+    <p class="p_msg"> Already have an account?</p>
+    <form method="get" action="/signin">
+        <button class="signin-btn" type="submit">Signin</button>
+    </form>
+</div>
+</body>
+
+</html>

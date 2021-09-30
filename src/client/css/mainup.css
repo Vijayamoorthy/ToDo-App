@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(82, 163, 113);
+  background-image: url(../assets/dsk.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-ctr {
+  width: 400px;
+  height: 580px;
+  padding: 60px 35px 35px 35px;
+  border: rgba(128, 128, 128, 0.637);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 40px;
+  background: linear-gradient(to top right, #067c8b, rgb(3, 82, 71));
+  box-shadow: 13px 13px 20px #200c0cc9, -13px -13px 20px rgb(3, 82, 71);
+}
+
+.hdr {
+  display: flex;
+  justify-content: center;
+}
+
+.hdr,
+signup-hdr {
+  font-style: initial;
+  font-weight: 300;
+  font-size: larger;
+  color: rgb(255, 255, 255);
+}
+
+/* .hdr,
+signup-hdr,
+in {
+  font-weight: 300;
+} */
+
+.inputName {
+  border: none;
+  outline: none;
+  background: none;
+  height: 60px;
+  width: 325px;
+  border-radius: 40px;
+  padding-left: 15px;
+  color: aliceblue;
+  font-size: 15px;
+}
+
+.inputEmail {
+  border: none;
+  outline: none;
+  background: none;
+  height: 50px;
+  width: 325px;
+  border-radius: 40px;
+  padding-left: 15px;
+  color: aliceblue;
+  font-size: 15px;
+}
+
+.inputPassword {
+  border: none;
+  outline: none;
+  background: none;
+  height: 50px;
+  width: 325px;
+  padding-left: 15px;
+  color: aliceblue;
+  border-radius: 40px;
+  font-size: 15px;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: lightblue;
+  opacity: 1; /* Firefox */
+}
+.signin-btn {
+  text-decoration: none;
+  height: 50px;
+  width: 130px;
+  border-radius: 40px;
+  color: lightblue;
+  font-size: 20px;
+  background: rgb(3, 82, 71);
+}
+
+.signup-btn {
+  text-decoration: none;
+  height: 50px;
+  width: 130px;
+  border-radius: 40px;
+  color: lightblue;
+  font-size: 20px;
+  background: rgb(3, 82, 71);
+}
+
+.p_msg {
+  color: lightblue;
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: larger;
+}
